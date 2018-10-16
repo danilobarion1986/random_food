@@ -5,5 +5,5 @@ class Restaurante
 
   field :nome, type: String
   field :apelido, type: String, default: 'Sem apelido'
-  field :location, type: Geo::Ponto
+  field :location, type: Location
 end
